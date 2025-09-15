@@ -51,7 +51,7 @@ Wir haben **Konzept A („Front-Trio, starr“) ausgewählt**, da es am schnells
 - Mechanisch/programmatisch komplexer  
 - US-Mehrwege-Fehler bei Winkeln  
 
-| **Skizze** |![Konzept_A](images/Concept_B.jpg)|
+| **Skizze** |![Konzept_B](images/Concept_B.jpg)|
 ---
 
 ## Konzept C – „Wall-Follower“
@@ -67,7 +67,7 @@ Wir haben **Konzept A („Front-Trio, starr“) ausgewählt**, da es am schnells
 - Freistehende Hindernisse oder Abzweigungen kritisch  
 - Weniger geeignet für offene Parcours  
 
-| **Skizze** |![Konzept_A](images/Concept_C.jpg)|
+| **Skizze** |![Konzept_C](images/Concept_C.jpg)|
 ---
 
 ## Entscheidung
