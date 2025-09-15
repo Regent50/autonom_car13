@@ -34,7 +34,7 @@ Wir haben **Konzept A („Front-Trio, starr“) ausgewählt**, da es am schnells
 - IR unzuverlässig bei schwarz/matt oder spiegelnd  
 - Schmale Stäbe/Schrägen können übersehen werden  
 
-| **Skizze**|![Konzept_A] (images/Concept_A.png)|
+| **Skizze** |![Konzept_A](images/Concept_A.jpg)|
 ---
 
 ## Konzept B – „Scan-Kopf“ (Ultraschall auf Servo)
@@ -51,6 +51,7 @@ Wir haben **Konzept A („Front-Trio, starr“) ausgewählt**, da es am schnells
 - Mechanisch/programmatisch komplexer  
 - US-Mehrwege-Fehler bei Winkeln  
 
+| **Skizze** |![Konzept_A](images/Concept_B.jpg)|
 ---
 
 ## Konzept C – „Wall-Follower“
@@ -66,6 +67,7 @@ Wir haben **Konzept A („Front-Trio, starr“) ausgewählt**, da es am schnells
 - Freistehende Hindernisse oder Abzweigungen kritisch  
 - Weniger geeignet für offene Parcours  
 
+| **Skizze** |![Konzept_A](images/Concept_C.jpg)|
 ---
 
 ## Entscheidung
@@ -77,4 +79,8 @@ Wir haben uns für **Konzept A („Front-Trio, starr“) entschieden**, da es:
 - am besten für eine **schnelle Teststrecke mit Hindernissen** geeignet ist,  
 - und somit die besten Chancen bietet, den aktuellen Rekord von **33 Sekunden** zu unterbieten .  
 
+**Trotzdem beginnen wir erstmal mit dem Wallfollower damit wir ein gefühl dafür bekommen wenn wir einfacher beginnen**
 ---
+
+Cezar-Andrei Iosif-Petrescu 
+David Jovanovic
