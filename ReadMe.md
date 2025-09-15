@@ -18,7 +18,7 @@ Wir haben **Konzept A („Front-Trio, starr“) ausgewählt**, da es am schnells
 
 ---
 
-## Konzept A – „Front-Trio, starr“ ✅ *gewählt*
+## Konzept A – „Front-Trio, starr“  *gewählt*
 
 **Idee:** Alle Sensoren starr vorne montiert, schnelle Hinderniserkennung ohne Servo-Scan.  
 **Einsatz:** Geschwindigkeit und einfache Logik → ideal für Bestzeiten.
@@ -34,6 +34,7 @@ Wir haben **Konzept A („Front-Trio, starr“) ausgewählt**, da es am schnells
 - IR unzuverlässig bei schwarz/matt oder spiegelnd  
 - Schmale Stäbe/Schrägen können übersehen werden  
 
+| **Skizze**|![Konzept_A] (images/Concept_A.png)|
 ---
 
 ## Konzept B – „Scan-Kopf“ (Ultraschall auf Servo)
@@ -74,6 +75,6 @@ Wir haben uns für **Konzept A („Front-Trio, starr“) entschieden**, da es:
 - am **einfachsten** umzusetzen ist,  
 - die **schnellsten Reaktionszeiten** ermöglicht (keine Servo-Latenz),  
 - am besten für eine **schnelle Teststrecke mit Hindernissen** geeignet ist,  
-- und somit die besten Chancen bietet, den aktuellen Rekord von **33 Sekunden** zu unterbieten 🚀.  
+- und somit die besten Chancen bietet, den aktuellen Rekord von **33 Sekunden** zu unterbieten .  
 
 ---
