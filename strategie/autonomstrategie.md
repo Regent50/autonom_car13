@@ -32,47 +32,40 @@ Die Autonomiestrategie des Roboters basiert auf der Wall-Follower-Logik, bei der
 
 ## Pseudo Code
 
-```cpp
 
-loop() {
-    readSensors();  // Liest den vorderen IR-Sensor und den Ultraschallsensor.
+StarteFahrzeug()
+    SetzeMotorenPWM(PWM_Fahrzeug)  // Setze beide Motoren auf PWM 100% (gerade Fahrt)
 
-    switch(state) {
-        case IDLE:
-            stopMotors();
-            if (startButton) state = WALLFOLLOWER;  // Startsignal.
-            break;
+    Solange (Fahre):
+        IR_Sensor_Abstand = MesseIR_Sensor()  // Lese den Wert des IR-Sensors (Abstand zum Hindernis)
 
-        case WALLFOLLOWER:
-            error = targetDist - irFront;  // Differenz zum Sollabstand
-            adjustMotorsPID(error);  // PID-Regelung zur Wandverfolgung
-            if (ultraFront < 40) state = ANNAEHERUNG;  // Wenn Hindernis erkannt.
-            break;
+        Wenn IR_Sensor_Abstand < 40 cm:  // Wenn ein Hindernis erkannt wird (z.B. bei weniger als 40 cm Abstand)
+            Bremsen()
+            SetzeMotorenPWM(PWM_Bremsen)  // Reduziere die Geschwindigkeit auf 50%
 
-        case ANNAEHERUNG:
-            slowDown();  // Geschwindigkeit verringern.
-            if (ultraFront < 25) state = AUSWEICHEN;  // Hindernis näher als 25 cm.
-            else if (ultraFront > 45) state = WALLFOLLOWER;  // Weiterfahrt, wenn freier Weg.
-            break;
+            // Überprüfe, ob der Roboter nach links oder rechts drehen soll
+            Wenn (Abstand Links):
+                DreheLinks()
+            Sonst Wenn (Abstand Rechts):
+                DreheRechts()
+            Ende
+        Ende
 
-        case AUSWEICHEN:
-            scanWithServo();  // Servo scannt nach freien Richtungen.
-            chooseFreeDirection();  // Entscheidet, ob nach links oder rechts ausgewichen wird.
-            turnRobot();  // Roboter dreht sich in die gewählte Richtung.
-            state = RUECKKEHR;
-            break;
+        // Wenn kein Hindernis, fahre weiter geradeaus
+        SetzeMotorenPWM(PWM_Fahrzeug)  // Weiter mit PWM 100%
+    Ende
 
-        case RUECKKEHR:
-            moveUntilWallDetected();  // Fährt zurück zur Wand.
-            state = WALLFOLLOWER;  // Zurück zur Wall-Follower-Logik.
-            break;
 
-        case ZIEL:
-            stopMotors();  // Stoppen, Ziel erreicht.
-            break;
+Funktion DreheLinks()
+    // Setze den linken Motor auf 70% PWM und den rechten auf 30% PWM (Drehung nach links)
+    SetzeMotorenPWMLinks(PWM_Links)
+    SetzeMotorenPWMRechts(PWM_Rechts)
+Ende
 
-        case FAILSAFE:
-            emergencyStop();  // Stoppt sofort bei Fehler.
-            break;
-    }
-}
+Funktion DreheRechts()
+    // Setze den linken Motor auf 30% PWM und den rechten auf 70% PWM (Drehung nach rechts)
+    SetzeMotorenPWMLinks(PWM_Rechts)
+    SetzeMotorenPWMRechts(PWM_Links)
+Ende
+
+Ende
