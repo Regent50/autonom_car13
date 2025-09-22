@@ -18,7 +18,7 @@ Die Autonomiestrategie des Roboters basiert auf der Wall-Follower-Logik, bei der
 ## Zustandsautomat (Skizze)
 
 
-| **Skizze** |![Zustandautomat](images_skizzen/Zustandsautomat.jpg)|
+| **Skizze** |![Zustandautomat](images/Zustandsautomat.jpg)|
 ---
 
 ## Schwellwerte (Startwerte)
