@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "../../Ampel_Blitzer/ADC_exercise"
+		},
+		{
+			"name": "ADC_Messung",
+			"path": "../../../PlatformIO/Projects/ADC_Messung"
+		},
+		{
+			"name": "led_pulsieren",
+			"path": "../../../PlatformIO/Projects/led_pulsieren"
+		},
+		{
+			"name": "Entfernnungssensor",
+			"path": "../../../PlatformIO/Projects/entfernnungssensor/Entfernnungssensor"
+		},
+		{
+			"name": "08092025_poti",
+			"path": "../../../PlatformIO/Projects/08092025_poti/08092025_poti"
+		}
+	],
+	"settings": {}
+}
