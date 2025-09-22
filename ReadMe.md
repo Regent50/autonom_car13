@@ -34,7 +34,7 @@ Wir haben **Konzept A („Front-Trio, starr“) ausgewählt**, da es am schnells
 - IR unzuverlässig bei schwarz/matt oder spiegelnd  
 - Schmale Stäbe/Schrägen können übersehen werden  
 
-| **Skizze** |![Konzept_A](images/Concept_A.jpg)|
+| **Skizze** |![Konzept_A](images_skizzen/Concept_A.jpg)|
 ---
 
 ## Konzept B – „Scan-Kopf“ (Ultraschall auf Servo)
@@ -51,7 +51,7 @@ Wir haben **Konzept A („Front-Trio, starr“) ausgewählt**, da es am schnells
 - Mechanisch/programmatisch komplexer  
 - US-Mehrwege-Fehler bei Winkeln  
 
-| **Skizze** |![Konzept_B](images/Concept_B.jpg)|
+| **Skizze** |![Konzept_B](images_skizzen/Concept_B.jpg)|
 ---
 
 ## Konzept C – „Wall-Follower“
@@ -67,7 +67,7 @@ Wir haben **Konzept A („Front-Trio, starr“) ausgewählt**, da es am schnells
 - Freistehende Hindernisse oder Abzweigungen kritisch  
 - Weniger geeignet für offene Parcours  
 
-| **Skizze** |![Konzept_C](images/Concept_C.jpg)|
+| **Skizze** |![Konzept_C](images_skizzen/Concept_C.jpg)|
 ---
 
 ## Entscheidung
