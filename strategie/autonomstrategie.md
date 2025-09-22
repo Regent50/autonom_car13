@@ -24,9 +24,9 @@ Die Autonomiestrategie des Roboters basiert auf der Wall-Follower-Logik, bei der
 ## Schwellwerte (Startwerte)
 
 - **Zielabstand zur Wand**: 15–20 cm.
-- **Abbremsen**: Wenn Ultraschall < 40 cm.
-- **Ausweichen**: Wenn Ultraschall < 25 cm.
-- **Not-Stop**: Wenn Ultraschall < 10 cm oder bei kritischen Fehlern.
+- **Abbremsen**: Wenn IR_Sensor < 40 cm.
+- **Ausweichen**: Wenn IR_Sensor < 25 cm.
+- **Not-Stop**: Wenn IR_Sensor < 10 cm oder bei kritischen Fehlern.
 
 ---
 
