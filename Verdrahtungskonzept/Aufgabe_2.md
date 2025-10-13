@@ -1,0 +1,1 @@
+| **Verdrahtungskonzept** |![Verdrahtungskonzept](images/schaltplan_motoren.jpg)|
