@@ -20,6 +20,29 @@ Die Autonomiestrategie des Roboters basiert auf der Wall-Follower-Logik, bei der
 
 | **Skizze** |![Zustandautomat](images/Zustandsautomat.jpg)|
 ---
+## Schnittstellen & APIs
+
+Für die Kommunikation zwischen den Komponenten werden folgende Schnittstellen definiert:
+
+Motorsteuerung: Funktionen zum Steuern der Motoren, z. B. motorVorwaerts(), motorRueckwaerts(), motorStop().
+
+Sensorabfrage: Funktionen zum Auslesen der Sensordaten, z. B. getAbstand(), getBodenSensor().
+
+Navigation: Funktionen zur Berechnung der Fahrtrichtung, z. B. berechneKorrektur().
+
+## Aktualisierungsraten
+
+**Sensoren**: 10 Hz (alle 100 ms)
+
+**Motorsteuerung**: 50 Hz (alle 20 ms)
+
+## Filter
+
+**Moving Average**: Glättung der Sensordaten zur Reduzierung von Rauschen.
+
+**Debounce**: Vermeidung mehrfacher Auslösungen bei schnellen Änderungen.
+
+
 
 ## Schwellwerte (Startwerte)
 
